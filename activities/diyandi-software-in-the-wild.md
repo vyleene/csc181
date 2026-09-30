@@ -9,7 +9,7 @@
 ## 1. User group
 
 **Who are you designing for?**  
-Local residents, students, and festival attendees visiting the Mugna carnival rides during the Diyandi Festival sa Iligan.
+Local residents, students, and festival attendees visiting the Mugna carnival rides during the Diyandi Festival in Iligan.
 
 **Why might this group need support during Diyandi?**  
 During the festival, carnival places experience overcrowding during late afternoons or evenings. Attendees often spend a portion of their time waiting in slow, congested lines just to buy ride tickets which leads to frustration before they can even enjoy the ride itself.
@@ -33,7 +33,7 @@ Physical ticket booths at Mugna create bottlenecks. Visitors must line up twice,
 ## 4. Proposed digital solution
 
 **What digital tool would you propose?**  
-A responsive web application for Mugna ride ticketing, inspired by Robinsons Movieworld's online ticketing website. The platform allows uesrs to view available rides and their operating schedules, buy tickets in advanced and receive a scannable QR code on their mobile screens.
+A responsive web application for Mugna ride ticketing, inspired by Robinsons Movieworld's online ticketing website. The platform allows users to view available rides and their operating schedules, buy tickets in advanced and receive a scannable QR code on their mobile screens.
 
 **How would it help the intended users?**  
 It removes ticket purchasing from the physical carnival grounds. Attendees can directly proceed to the ride queue after just scanning their QR code received from the web app, bypassing the ticket booth and cutting their total time spent waiting.
