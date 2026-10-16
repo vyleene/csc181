@@ -200,4 +200,4 @@ upload the same Markdown file to their personal CSC181 repository.
 - [x] All members reviewed the same final document.
 - [x] Each member saved the file as `activities/project-proposal.md`.
 - [x] Each member committed and pushed their copy to their personal repository.
-- [ ] Each member submitted their own GitHub file link through MOLE.
+- [x] Each member submitted their own GitHub file link through MOLE.
