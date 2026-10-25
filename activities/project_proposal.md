@@ -41,113 +41,119 @@
 
 ### Selected problem
 
-The group reached a consensus to select the problem of students struggling to find affordable and viable boarding houses near campus.
+The group reached a consensus to select the problem of students spending too much money buying things for short-term use while other students have the exact same items just sitting in their rooms.
 
 ### Selection rationale
 
 
-We selected the issue of finding affordable boarding houses because it directly reduces financial strain and housing stress for freshmen and out-of-town students. While securing landlord commitment will require consistent effort, accessing our primary student stakeholders for research and testing is highly feasible. Developing a localized housing directory minimum viable product is practical and manageable within our strict two-month development timeframe. We ultimately passed on the short-term item rental platform due to the complexities of managing liability and trust, and we ruled out the scholarship matcher because of its high dependency on university administrators for accurate data.
-
+We selected the item-sharing problem becuase it impacts every student. People who lend items and people who borrow items would both be students from campus. which means we can quickly talk to people for surveys and interviews without needing anyone else. The boarding house idea wasn't chosen becuase it needs updates and help from landlords, who are hard to get in touch with. The scholarship problem depends on up-to-date. Correct infromation from university staff, which we can't be sure about. Our problem avoids both these issues. The main risk however is the trust and responsibility for items that get broken or lost, can be handled in the design with things, like user ratings records of whats been borrowed and confirmations when items are returned.
 
 ## 3. Preliminary Project Proposal
 
 ### Working project title
 
-RoomMe: A Student Housing Directory
+LendAnIITian: A Peer-to-Peer Student Item Sharing Platform
 
 ### Problem statement
 
-The problem of scattered, outdated, and unverified boarding house availability affects university students, especially out-of-town freshmen, and local landlords, the impact of which is exhausting physical searches, wasted time, and students panicking to settle for bad, unsafe, or overpriced accommodations just to have a place to stay. A successful solution would allow a student to filter and find at least three available bedspaces matching their budget within a 1-kilometer radius of the campus in under 10 minutes. Right now, the current approach relies heavily on disjointed Facebook posts, looking for physical "bedspacer needed" signs on gates, or just asking around through word of mouth. This makes the whole setup highly inefficient. Moving forward, our main assumption requiring validation is whether landlords will actually take the time to use and update a new digital platform.
+The problem of students spending significant money buying single-use items (such as performance costumes, scientific calculators, lab gowns, and safety gear) affects MSU-IIT students—especially out-of-town freshmen who lack local campus networks—the impact of which is financial strain, dorm clutter, and unused items sitting idle while peers scramble through messy group chats, unfiltered Facebook pages like MSU-IIT CATS, and ukay-ukay stores without a way to request unlisted items or just buying new stuff out of panic. Furthermore, item owners hesitate to lend due to fears of damage, ghosting, or unreturned belongings. A successful solution would allow students to search, filter, post item requests, and receive responses in under 3 minutes, achieving at least 15 completed rental transactions with zero reported unreturned items during initial pilot testing.
 
 ### Proposed solution
 
-RoomMe is a digital housing directory that connects students with local boarding house and dorm owners. The platform allows landlords to post their available rooms or bedspaces with photos, pricing, and a list of amenities. Students can use the system to search, filter, and compare housing options based on their budget and preferred distance from the campus. This streamlines the whole discovery process into a single application.
+LendAnIITian is a responsive web application where verified MSU-IIT students can list idle items (such as costumes, calculators, lab gear, and event props) with photos, descriptions, and daily or weekly rental rates. Renters can search and filter available inventory by name, category, price, and availability status. In addition to browsing listed items, students can also post "Item Needed" requests for specific items they cannot find, allowing fellow students who own those items to respond directly and offer them for borrow or rent. Renters send structured requests that owners approve or decline, while status labels (Available, Requested, Rented Out) prevent double-booking. Sign-up is strictly limited to MSU-IIT student email addresses (@g.msuiit.edu.ph) and meetups happen on campus, ensuring user accountability and a safer way to lend and borrow.
 
 ## 4. Stakeholder List
 
 | Stakeholder role/group | Relationship to the project | Likely need or concern | Question to ask | Possible consultation method |
 |---|---|---|---|---|
-| Student Renters | Primary user | Need quick, reliable ways to find safe bedspaces, but concerned about real-time accuracy| What do you look for first when finding a boarding house and what are your biggest frustrations when searching for one?| Quick online survey or brief on-campus interview
-| Parents and guardians | Secondary user/Sponsor | Concerned about the safety, security, and location of the boarding house since they usually pay for it. | What safety features or neighborhood conditions are a must for you when financing your child's accommodation? | Online surveys, phone interviews |
-| Landlords and property managers | Content providers/Operators | Want reliable tenants but don't want to spend time updating an app. | What specific features would make it worth your time to update your property's availability and pricing on a new platform? | Interviews at their property |
-| Office of Student Development Services | Regulator/partner | Need safe and approved housing options for students. | What minimum standards must our application meet before your office would comfortably recommend it during freshman orientation? | Formal meetings with the department director, proposal presentation. |
-| Local barangay officials | Regulator | Need to make sure that the boarding houses in their area have valid business permits and don't cause neighborhood issues. | Do you keep a public directory of registered boarding houses we could reference? | Formal request for public records. |
-| Our team | Developer | Need a working, gradable project that fits within 2 months. | Is this scope small enough to finish on time? | Team meetings |
+| Student Borrowers | Primary User | Need a quick, affordable way to find short-term items without buying brand new or relying on personal campus networks. | What was the last item you needed for a single class or event, and how did you try to get it? | On-campus interviews, Google Forms survey |
+| Student Lenders | Primary User / Content Provider | Want to earn small fees from idle items, but worry about damage, ghosting, and unreturned belongings. | What safeguards or information would make you feel comfortable lending an item to a student you don't know? | On-campus interviews, direct stakeholder chats |
+| Parents & Guardians | Secondary User / Sponsor | Concerned about unexpected allowance spending on single-use course materials and the safety of borrowed items. | How often do you send extra money for unexpected, short-term course requirements or performance attire? | Informal surveys, student proxy interviews |
+| Campus Security / OSDS | Regulator | Concerned about student safety during physical meetups and compliance with campus data privacy policies. | What public campus locations and verification rules do you recommend for student-to-student exchanges? | Review of MSU-IIT campus guidelines, OSDS handbook |
+| Commercial Shops & Ukay Vendors | Negative Stakeholder | May lose full-price retail sales or rental customers if students share items peer-to-peer instead of buying new. | How do student purchasing habits shift during major campus event seasons? | Field observations at local stores |
 
-Stakeholder-count explanation, if needed: Not applicable.
+Stakeholder-count explanation, if needed:
+LendAnIITian involves distinct stakeholder layers beyond basic software users. We separated Student Borrowers and Student Lenders because their motivations conflict: borrowers prioritize search speed and affordability, while lenders prioritize item security, accountability, and return guarantees. Parents were included as financial sponsors who bear the cost of panic buying single-use materials. Campus Security and OSDS represent regulatory bodies ensuring meetup safety and Data Privacy Act compliance, while commercial shops represent negative stakeholders affected by reduced single-use purchases.
 
 ## 5. Initial Scope
 
 ### Intended users and setting
 
-The primary users for this system are student renters seeking long-term accomodation for their academic semester. The landlords and property managers of boarding houses and dormitories are the main content providers. The system will operate as a web based application, designed to be accessed via a smartphone/desktop.
+The primary users are currently enrolled MSU-IIT students acting as item lenders or borrowers. The system operates as a responsive web application accessed via smartphones and desktop browsers, with item exchanges occurring strictly through physical, on-campus meetups at secure university locations (e.g., University Library, Student Center, campus canteens).
 
 ### In-scope capabilities
 
-1. Search and Filter: Students can search for available rooms based on a criteria such as price range, location, gender restrictions, and room types (solo or shared).
-2. View Property Profiles: Students can view profiles for each listing, which will include photos, price, list of amneties, and contact information for the landlord.
-3. Manage Availability: Landlords can update the number of currently vacant beds or rooms in their properties, ensuring that students can see real-time availability.
+1. **Item Listing Management:** Lenders can create, edit, and delete item listings with photos, descriptions, size tags, condition notes, and daily or weekly rental rates.
+2. **Search and Multi-Filter System:** Borrowers can search inventory by name or keyword and filter results by category (e.g., Costumes, Electronics/Calculators, Lab Gear, Event Attire), size, price range, and availability status.
+3. **"Item Needed" Request Board:** Borrowers can post requests for specific unlisted items they need, allowing fellow students who own those items to view the requests and respond directly with an offer to lend or rent.
+4. **Structured Rental Request & Status Tracking:** Borrowers submit requests specifying their borrowing purpose, start date, and return due date. Lenders approve or decline requests, while automated status labels (Available, Requested, Rented Out, Overdue) prevent double-booking and track pending returns.
+5. **Campus Email Verification:** Account registration is strictly restricted to verified `@g.msuiit.edu.ph` institutional student email addresses to ensure user authenticity and campus community accountability.
 
 ### Out-of-scope capabilities
 
-1. In-app Payment: Handling secure online payment, deposits, or financial transaction between tenants and landlords.
-2. Automated Lease Agreement: Integrating automated digital contracts and lease agreements directly into the app.
-3. Live GPS Map Tracking: The platform will rely on static addresses rather than live map APIs to reduce technical overhead and API costs.
+1. **In-app Payments:** The application will not process financial transactions, take a platform cut, or hold deposits. All payments must be handled off-platform (e.g. cash or personal e-wallets) during the physical meetup.
+2. **Liability Resolution:** The MVP will not feature a built-in insurance system or a formalized mechanism for handling disputes over damaged, lost, or stolen items.
+3. **Delivery Integration:** The platform will not facilitate the delivery of items. Users are entirely responsible for arranging their own meetups within MSU-IIT campus or immediate surrouding area to hand over and return the items.
+4. **Native Mobile Applications:** No native iOS or Android app packages will be built for app stores. (Reason: A responsive web application delivers universal cross-platform access without deployment delays).
 
 ### Expected deliverables
 
-1. A working minimum viable product (MVP) that shows the core search and listing features.
-2. A high-fidelity UI prototype.
-3. Complete project documentation that includes our tesing evidence from real users.
+1. A working MVP responsive web application deployed to a free cloud hosting tier (e.g., Vercel or Render).
+2. A populated database containing at least 20 real or sample student listings across different categories for demonstration and user testing.
+3. Complete project documentation, including user acceptance testing evidence and logged stakeholder interview records.
 
 ### Constraints
 
 | Constraint | Effect on the project | How the team will respond |
 |---|---|---|
-| Strict two months development timeframe | Severely limits the number of features that can be designed, built, and tested. | Strictly adhere to the defined MVP scope and defer out-of-scope items |
-| Zero budget | We can't pay for premium hosting, marketing, or paid map APIs | We will only use free, open-source developmental tools and stick to static addresses instead of live map tracking. |
+| Strict 2-month development timeframe | Restricts feature complexity and eliminates non-essential capabilities. | Strictly focus on core MVP features (search, filter, request, status) and defer advanced features to a later list. |
+| Zero budget | Prevents the use of paid database tiers, custom domains, or premium APIs. | Utilize free, open-source tech stacks and deploy to free-tier hosting platforms. |
+| Off-platform payment and deposit handling | Lenders may hesitate to list valuable items due to potential damage or non-return risks without held deposits. | Encourage listing low-to-medium risk items during MVP testing, restrict sign-ups to verified campus accounts, and allow optional off-platform security deposits. |
+| Compliance with Data Privacy Act (RA 10173) and university policies | Restricts the collection, storage, and public display of student personal data (e.g., contact info, phone numbers, off-platform chat logs). | Practice strict data minimization by collecting only institutional @g.msuiit.edu.ph emails for authentication, keeping user profile details minimal, and revealing borrower contact details to lenders only after a rental request is formally approved. |
 
 ### Assumptions and dependencies
 
 | Assumption or dependency | Why it matters | How to check or address it |
 |---|---|---|
-| Landlords are willing to list and update their properties digitally. | The app is totally useless if there is no housing inventory or if the data is outdated. | Do fieldwork early to ask boarding house owners if they are actually willing to use our app. |
-| We need to comply with the Data Privacy Act (RA 10173). | We are handling student and landlord contact details, which can cause legal issues if leaked. | Only collect the personal data we absolutely need and keep it secure.|
+| Students possess idle items (e.g. books, gear, electronics) they are actively willing to rent out to peers for small amounts of money or goodwill | Without any initial items for listings, renters will find the platform empty and abandon it immediately | Conduct early campus interviews and surveys to identify available student items and pre-seed the platform database prior to pilot testing. |
+| Institutional email verification (`@g.msuiit.edu.ph`) provides sufficient trust and accountability for campus meetups. | If users feel anonymous or unsafe, lenders will refuse to hand over items to strangers. | Require institutional email authentication during registration and enforce public campus meetup locations (e.g., University Library, Student Center). |
+| Borrowers will honor return due dates without automated financial penalties. | Unreturned items create severe lender dissatisfaction and ruin platform credibility. | Implement clear return due date status labels (`Available`, `Requested`, `Rented Out`, `Overdue`) and send email reminders prior to the return deadline. |
 
 ### Success indicators
 
 | Success indicator | Proposed evaluation method |
 |---|---|
-| Fast search speed | Time how long it takes a test user to filter and find a matching room under 10 minutes. |
-| Number of real properties listed | Count the total number of unique boarding houses we successfully get landlords to upload during testing. |
+| **Sufficient Inventory:** At least 25 active, unique item listings published by verified MSU-IIT student accounts within the first month of the MVP launch | Query the database to count the total number of successfully published item listings associated with unique @g.msuiit.edu.ph emails. |
+| **Search Efficiency:** 80% of test users can filter and locate an item matching their required size and category in under 3 minutes. | Conduct timed user acceptance testing sessions with 5–10 students using standard search scenarios. |
+| **Completed Transactions:** Achieving at least 15 succesfully completed rental cycles (from "Requested" to "Returned") during the MVP phase. | Track the status changes of rental requests in the backend to verify how many bookings are actually completed by users. |
 
 ## 6. Review and Next Steps
 
 ### Change made after reviewing the proposal
 
-- Before review: We initially planned to go out there, survey the boarding houses ourselves, and manually input the info and room vacancy status into the app.
-- After review: We decided to include the landlords in the picture as content providers and users, letting them provide and update the info themselves.
-- Reason: Manually collecting and updating the data would take way too much time. Letting the dorm owners manage their own listings makes the system easier to maintain, though it shifts our challenge to figuring out how to convince them to actually use the app.
+- Before review: The first idea focussed only on browsing and renting items that lenders had already posted on the platform.
+- After review: We added "Item Needed" section where borrowers can post requests for items that aren't listed yet.
+- Reason: Most of the times, borrowers need niche items specifically for their needs that lenders haven't thought of. This allow students to request in-need items that encourage lenders to check their unused things.
 
 ### Biggest remaining risk
 
-The biggest remaining risk is the operational feasibility of the project. Since the landlords are now our main content providers, the whole app depends on whether we can actually convince them to register and use it. If they don't bother to update their room vacancies, the students will just see outdated info and the app becomes useless.
+The primary operational risk is **Lender Trust and Item Damage/Non-Return Fear**. Stakeholder interviews revealed that lenders hesitate to hand over items due to past experiences with ghosting, forgotten returns, or damaged belongings. If lenders refuse to list items out of fear, the platform inventory will fail. We mitigate this risk by enforcing `@g.msuiit.edu.ph` institutional verification, requiring explicit borrow reasons during requests, tracking return due dates, and encouraging public campus meetups.
 
 
 ### Three unanswered questions
 
-1. How do we effectively convince dorm owners, especially the non-tech-savvy ones, to adapt and regularly update the app?
-2. How will we verify that listings and landlords are legitimate?
-3. Will the app still be maintanable and sustainable?
+1. How can we incentivize student lenders to publish idle items early without built-in monetary escrow or insurance?
+2. What mandatory listing fields (e.g., fabric care, exact measurements, existing damage notes) are required to prevent borrower disputes upon return?
+3. How should the system flag and handle unresponsive borrowers when an item pass its return due date without owner confirmation?
 
 ## 7. Member Contribution Record
 
 | Member | Ideas or analysis contributed | Drafting or review contribution |
 |---|---|---|
-| Sean Jric B. Gabor | Brainstormed the practice space and item-sharing problems. Criticized and analyzed the operational feasibility of the chosen problem idea. | Came up with the project title. Revised the problem statement, and drafted the stakeholders concerns, scope, and feasibility sections. |
-| Luke Ryan C. Ruaya | Came up with the boarding house finder idea, provided possible stakeholders, in-scope capabilities, and one of the constraints | Proofread some statements in the document, drafted stakeholder questions and its relationships, scope, and constraints |
-| Kelvin Chris S. Gomez |Provided potential problems that we could tackle in our project proposal | Drafted the selection rationale and the team info. And finalize the remaining entries.|
-| Joshua Khent G. Kenezo | Came up with scholarship and lab borrowing system ideas. | Contributes information for the initial scope section and provides unanswered questions. Reviewed all provided answers. |
+| Sean Jric B. Gabor | Brainstormed the practice space and item-sharing problems. Criticized and analyzed the operational feasibility of the chosen problem idea. Conducted student interviews. | Revised the problem statement, and drafted the stakeholders concerns, scope, feasibility sections and, and review pivots. |
+| Luke Ryan C. Ruaya | Provided takeaways and insights from interviews that will be used for the application | Drafted the overall scope capabilities, constraints, assumptions, dependencies, expected deliverables, and success indicators |
+| Kelvin Chris S. Gomez |Provided potential problems that we could tackle in our project proposal. Interviewed a potential stakeholder| Drafted the selection rationale and the team info. And finalize the remaining entries. Made the revised project title, the problem statement and solution, also revised the stakeholders list|
+| Joshua Khent G. Kenezo | Came up with scholarship and lab borrowing system ideas. | Drafted the Review and Next Steps section.   |
 
 ## 8. References
 
